@@ -7,7 +7,7 @@
     <style>
         body {
             margin: 0;
-            padding: 50px 20px;
+            padding: 50px 10px;
             background-color: #ffffff;
             color: #111111;
             font-family: "KaiTi", "楷体", "STKaiti", serif;
@@ -15,7 +15,7 @@
         }
 
         .header {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
 
         .header h1 {
@@ -36,37 +36,55 @@
         .divider {
             height: 1px;
             background-color: #000000;
-            margin: 0 auto 20px auto;
+            margin: 0 auto 10px auto;
             width: 100%;
-            max-width: 800px;
+            max-width: 1350px;
             opacity: 0.15;
         }
 
         .text-block {
-            max-width: 1000px;
+            max-width: 1350px;
             margin: 0 auto;
         }
 
         .text-block p {
-            font-size: 15pt; 
+            font-size: 16pt; 
             font-weight: bold;
-            line-height: 1.2;
-            margin-bottom: 10px;
+            line-height: 1.1;
+            margin-bottom: 5px;
+        }
+        .image-container-left {
+            float:left;
+            margin: 0 auto 5px auto;
+            max-width: 670px;
+        }
+
+        .image-container-right {
+            float:right;
+            margin: 0 auto 5px auto;
+            max-width: 670px;
+        }
+
+        .image-container-m {
+            margin: 0 auto 5px auto;
+            max-width: 1350px;
+            height: 85%;
         }
 
         .image-container {
-            margin: 0 auto 10px auto;
-            max-width: 800px;
+            margin: 0 auto 5px auto;
+            max-width: 1350px;
         }
 
         .image-container img {
-            width: 800px;
+            width: 1350px;
             height: 200px;
             display: block;
             margin: 0 auto;
             max-width: 100%;
             height: auto;
         }
+      
  
     </style>
 </head>
@@ -85,15 +103,17 @@
     </div>
 
     <div class="image-container">
-        <img src="./imgs/sc1.png" alt="首次同步本地日记至网站" width="700" height="200">
-    </div>
-    
-    <div class="image-container">
-        <img src="./imgs/sc2.png" alt="同步意难平的这一年反思" width="700" height="200">
+        <div class="image-container-left">
+            <img src="./imgs/sc1.png" alt="首次同步本地日记至网站" width="700" height="200">
+        </div>
+        
+        <div class="image-container-right">
+            <img src="./imgs/sc2.png" alt="同步意难平的这一年反思" width="700" height="200">
+        </div>
     </div>
 
-    <div class="image-container">
-        <img src="./imgs/sc3.png" alt="创建礼物时的服务器时间戳" width="700" height="480">
+    <div class="image-container-m">
+        <img src="./imgs/sc3.png" alt="创建礼物时的服务器时间戳" width="1350" height="550">
     </div>
 
 
